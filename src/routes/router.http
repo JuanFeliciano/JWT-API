@@ -1,0 +1,22 @@
+GET http://localhost:5500/index
+
+###
+
+POST http://localhost:5500/store
+Content-Type: application/json
+
+{
+  "name": "juan",
+  "email": "juan@gmail.com",
+  "password": "101010"
+}
+
+###
+
+POST http://localhost:5500/auth
+Content-Type: application/json
+
+{
+  "email": "juan@gmail.com",
+  "password": "101010"
+}
