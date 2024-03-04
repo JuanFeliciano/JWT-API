@@ -6,8 +6,8 @@ POST http://localhost:5500/store
 Content-Type: application/json
 
 {
-  "name": "juan",
-  "email": "juan@gmail.com",
+  "name": "rayssa",
+  "email": "rayssa@gmail.com",
   "password": "101010"
 }
 
